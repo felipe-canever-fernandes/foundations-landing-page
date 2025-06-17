@@ -1,3 +1,5 @@
+/* General */
+
 * {
 	box-sizing: border-box;
 
@@ -11,6 +13,8 @@ body {
 	
 	color: #1f2937;
 }
+
+/* Header */
 
 .header {
 	background-color: #1f2937;
@@ -46,6 +50,8 @@ body {
 	text-decoration: none;
 	color: inherit;
 }
+
+/* Hero */
 
 .hero {
 	background-color: #1f2937;
