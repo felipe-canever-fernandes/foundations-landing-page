@@ -129,3 +129,13 @@ body {
 .content .container .cards .card {
 	width: 175px;
 }
+
+.content .container .cards .card img {
+	object-fit: cover;
+
+	width: 175px;
+	height: 175px;
+
+	border: #3882f6 solid 4px;
+	border-radius: 16px;
+}
