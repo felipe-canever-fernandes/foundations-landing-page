@@ -139,3 +139,8 @@ body {
 	border: #3882f6 solid 4px;
 	border-radius: 16px;
 }
+
+.content .container .cards .card p {
+	text-align: center;
+	margin: 8px 0;
+}
