@@ -46,3 +46,8 @@ body {
 	text-decoration: none;
 	color: inherit;
 }
+
+.hero {
+	background-color: #1f2937;
+	color: #e5e7eb;
+}
