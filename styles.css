@@ -15,8 +15,13 @@ body {
 .header {
 	background-color: #1f2937;
 	color: #e5e7eb;
+}
 
-	padding: 16px 192px;
+.header .container {
+	width: 1000px;
+
+	margin: 0 auto;
+	padding: 16px 16px;
 
 	display: flex;
 	justify-content: space-between;
