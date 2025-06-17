@@ -125,3 +125,7 @@ body {
 	gap: 48px;
 	justify-content: center;
 }
+
+.content .container .cards .card {
+	width: 175px;
+}
