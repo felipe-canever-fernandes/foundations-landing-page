@@ -151,3 +151,8 @@ body {
 	background-color: #e5e7eb;
 	padding: 100px 0;
 }
+
+.quote .container {
+	width: 800px;
+	margin: 0 auto;
+}
