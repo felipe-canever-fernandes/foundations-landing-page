@@ -173,3 +173,20 @@ body {
 .quote .container .source::before {
 	content: "— ";
 }
+
+/* Action */
+
+.action .container {
+	width: 1000px;
+
+	background-color: #3882f6;
+	color: #e5e7eb;
+
+	margin: 100px auto;
+	border-radius: 8px;
+	padding: 48px 125px;
+
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
