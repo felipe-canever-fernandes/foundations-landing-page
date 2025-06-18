@@ -23,14 +23,16 @@ body {
 }
 
 .header .container {
-	width: 1000px;
+	max-width: 1000px;
 
 	margin: 0 auto;
 	padding: 16px 16px;
 
 	display: flex;
+	gap: 24px;
 	justify-content: space-between;
 	align-items: center;
+	flex-wrap: wrap;
 }
 
 .header .container .logo {
@@ -45,6 +47,7 @@ body {
 
 	display: flex;
 	gap: 24px;
+	flex-wrap: wrap;
 }
 
 .header .container ul li a {
@@ -62,7 +65,7 @@ body {
 }
 
 .hero .container {
-	width: 1000px;
+	max-width: 1000px;
 
 	margin: 0 auto;
 	padding: 16px 16px;
@@ -71,6 +74,11 @@ body {
 	gap: 32px;
 	justify-content: space-between;
 	align-items: center;
+	flex-wrap: wrap;
+}
+
+.hero .container .text {
+	flex: 0 1 450px;
 }
 
 .hero .container .text h1 {
@@ -99,14 +107,14 @@ body {
 .hero .container img {
 	object-fit: cover;
 
-	min-width: 480px;
-	height: 250px;
+	flex: 0 1 480px;
+	max-height: 250px;
 }
 
 /* Content */
 
 .content .container {
-	width: 1000px;
+	max-width: 1000px;
 
 	margin: 0 auto;
 	padding: 64px 0;
@@ -121,6 +129,8 @@ body {
 	font-size: 36px;
 	font-weight: 900;
 
+	text-align: center;
+
 	color: #1f2937;
 }
 
@@ -128,6 +138,7 @@ body {
 	display: flex;
 	gap: 48px;
 	justify-content: center;
+	flex-wrap: wrap;
 }
 
 .content .container .cards .card {
@@ -157,8 +168,10 @@ body {
 }
 
 .quote .container {
-	width: 780px;
+	max-width: 780px;
+
 	margin: 0 auto;
+	padding: 16px;
 }
 
 .quote .container p {
@@ -179,8 +192,12 @@ body {
 
 /* Action */
 
+.action {
+	padding: 16px;
+}
+
 .action .container {
-	width: 1000px;
+	max-width: 1000px;
 
 	background-color: #3882f6;
 	color: #e5e7eb;
@@ -193,6 +210,7 @@ body {
 	gap: 16px;
 	justify-content: space-between;
 	align-items: center;
+	flex-wrap: wrap;
 }
 
 .action .container h1 {
