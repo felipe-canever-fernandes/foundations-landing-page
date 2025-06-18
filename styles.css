@@ -210,3 +210,14 @@ body {
 	border-radius: 8px;
 	padding: 8px 32px;
 }
+
+/* Footer */
+
+.footer {
+	text-align: center;
+
+	background-color: #1f2937;
+	color: #f9faf8;
+
+	padding: 48px;
+}
