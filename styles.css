@@ -190,3 +190,10 @@ body {
 	justify-content: space-between;
 	align-items: center;
 }
+
+.action .container h1 {
+	font-size: 24px;
+	font-weight: 500;
+
+	color: #f9faf8;
+}
