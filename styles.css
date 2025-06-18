@@ -162,3 +162,14 @@ body {
 	font-size: 36px;
 	font-style: italic;
 }
+
+.quote .container .source {
+	font-size: 24px;
+	font-weight: bold;
+
+	text-align: right;
+}
+
+.quote .container .source::before {
+	content: "— ";
+}
